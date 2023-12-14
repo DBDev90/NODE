@@ -2,6 +2,7 @@ import express from 'express';
 import 'dotenv/config';
 
 import { router } from './routes';
+import './shared/services/TraducoesYup';
 
 const server = express();
 
